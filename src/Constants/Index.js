@@ -1,3 +1,6 @@
+import image1 from "../assets/rowmari-map.png";
+import image2 from "../assets/react.svg";
+
 export const navItems = [
   {
     id: "1",
@@ -18,5 +21,18 @@ export const navItems = [
     id: "4",
     title: "link4",
     url: "/link4",
+  },
+];
+
+export const CarInfo = [
+  {
+    id: 11,
+    title: "text example",
+    image: image1,
+  },
+  {
+    id: 22,
+    title: "Example Text",
+    image: image2,
   },
 ];
