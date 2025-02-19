@@ -7,12 +7,12 @@ const Footer = () => {
         <div className="flex items-center justify-between">
           <div>
             <p>
-              all right reserved by <span>react</span>
+              All right reserved by <a href="#">RMRC&M</a>
             </p>
           </div>
           <p>
-            developed by
-            <a href="ashiful-islam.vercel.app" target="_blank">
+            Developed by
+            <a className="ml-2" href="ashiful-islam.vercel.app" target="_blank">
               mukto
             </a>
           </p>

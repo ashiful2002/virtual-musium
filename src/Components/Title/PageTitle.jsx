@@ -6,12 +6,12 @@ const PageTitle = ({ title, heading, className }) => {
     <>
       {title && (
         <Helmet>
-          <title>{title} - site </title>
+          <title>{title} - Rowmari Muktancal Research Center &  Museum </title>
         </Helmet>
       )}
       {heading && <h1 className={`heading  ${className} `}>{heading}</h1>}
     </>
   );
-};
+}; 
 
 export default PageTitle;
