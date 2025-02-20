@@ -25,7 +25,7 @@ const Header = () => {
             <Nav className="ms-auto">
               {navItems.map((item) => (
                 <Nav.Link
-                  className="mx-auto py-3"
+                  className=" py-3"
                   key={item.id}
                   href={item.url}
                 >

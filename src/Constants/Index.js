@@ -4,23 +4,23 @@ import image2 from "../assets/react.svg";
 export const navItems = [
   {
     id: "1",
-    title: "link1",
-    url: "#link1",
+    title: "হোম",
+    url: "/home",
   },
   {
     id: "2",
-    title: "link2",
-    url: "#link2",
+    title: "আমাদের সম্পর্কে",
+    url: "/about",
   },
   {
     id: "3",
-    title: "link3",
-    url: "#link3",
+    title: "অগ্রদুত",
+    url: "/agrodut",
   },
   {
     id: "4",
-    title: "link4",
-    url: "/link4",
+    title: "গ্যালারী",
+    url: "/gallery",
   },
 ];
 

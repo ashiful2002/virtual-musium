@@ -1,11 +1,11 @@
 import React from "react";
 
-import heroImage from "../../src/assets/dakghor.jpg";
-import PageTitle from "../Components/Title/PageTitle";
-import VCarousel from "../pages/components/Carousel";
+import heroImage from "../../../assets/dakghor.jpg";
+import PageTitle from "../../../Components/Title/PageTitle";
+import VCarousel from "../../components/Carousel";
 const Hero = () => {
   return (
-    <div className="mt-20 bg-amber-100">
+    <div className="">
       <div className="container mx-auto" id="link1">
         <PageTitle title="RMRC&M" />
         <marquee
