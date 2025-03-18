@@ -17,6 +17,10 @@ import Agrodut from "../pages/Agrodut/Agrodut.jsx";
           element: <Home />,
         },
         {
+          path: "/home",
+          element: <Home />,
+        },
+        {
           path: "/about",
           element: <About />,
         },

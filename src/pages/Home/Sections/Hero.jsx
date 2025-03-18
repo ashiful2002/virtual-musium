@@ -7,15 +7,8 @@ const Hero = () => {
   return (
     <div className="">
       <div className="container mx-auto" id="link1">
-        <PageTitle title="RMRC&M" />
-        <marquee
-          behavior="scroll"
-          direction="left"
-          className="text-2xl text-secondary-color"
-        >
-          রৌমারী মুক্তাঞ্চল গবেষণা কেন্দ্র ও জাদুঘর। রৌমারী অঞ্চলের গৌরবময়
-          ইতিহাস সংগ্রহ ও উপস্থাপনের একটি ক্ষুদ্র প্রচেষ্টা মাত্র
-        </marquee>
+        <PageTitle title="RMRC&M"  />
+        
         <div className="flex flex-col justify-center gap-5 md:items-center">
           <div>
             <img
@@ -38,7 +31,6 @@ const Hero = () => {
             </p>
           </div>
         </div>
-        <VCarousel />
 
       </div>
     </div>

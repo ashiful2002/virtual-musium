@@ -10,12 +10,13 @@ h5,
 h6 {
   font-family: "Roboto", serif;
 }
+
 p a {
   font-family: "Poppins", serif;
 }
 
 @layer components {
   .heading {
-    @apply rounded bg-blue-600 text-center capitalize text-white;
+    @apply bg-secondary-color rounded text-center capitalize text-white  py-2 font-bold text-2xl
   }
 }

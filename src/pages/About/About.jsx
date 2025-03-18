@@ -6,7 +6,7 @@ const About = () => {
     <div className="mt-20">
       <Section>
         <div>
-          <h1 className="heading bg-secondary-color py-2 font-bold">
+          <h1 className="heading ">
             রৌমারী মুক্তাঞ্চল গবেষণা কেন্দ্র ও জাদুঘর
           </h1>
           <p>
